@@ -1,4 +1,4 @@
-const $ = new Env("晶彩看点签到");
+const $ = new Env("晶彩看点签到2");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""
 let qdbody= $.isNode() ? (process.env.qdbody ? process.env.qdbody : "") : ($.getdata('qdbody') ? $.getdata('qdbody') : "")
